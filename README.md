@@ -265,6 +265,9 @@ npm run dev
 - **「执行单步」** — 推进 1 个 tick，适合逐步观察
 - **「批量仿真」** — 一次推进 N 步（可调节步数）
 
+- <img width="2462" height="1293" alt="image" src="https://github.com/user-attachments/assets/f43f7550-158d-4052-b3c1-2bbc6aaf4e0d" />
+
+
 ### Step 4：观察世界状态链
 
 切换到「**世界状态链**」页面，按时间轴查看每个 tick 产生的事件：
