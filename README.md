@@ -7,6 +7,8 @@
 
 ---
 
+warning：项目依然有很多bug  但是总体功能已经实现的差不多了  希望后续能有更多开发者一起来维护项目    本项目受到mirofish的启发而来的（https://github.com/666ghj/MiroFish）   基于agentsociety而构建的基于虚拟数字世界的推演预测项目。  （本人邮箱：jiachangkun02@gmail.com）
+
 ## 目录
 
 - [项目简介](#项目简介)
