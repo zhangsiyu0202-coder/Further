@@ -1,0 +1,6 @@
+# Known Issues (2026-04-06)
+
+- Tick/time semantics need alignment. `simulate()` uses `tick_seconds` (default 300s) and computes virtual time as `base_t + tick * tick_seconds`, but `step_once()` uses `datetime.utcnow()` so single-step runs are off the virtual clock. Interventions apply immediately without advancing tick; agents only react on the next simulation step, so there is no explicit delay between operator action and agent response.
+- Operator command API was removed. Frontend still shows a natural-language command box but it is disabled client-side; only structured intervention/report buttons work. Desired future state is a director-style flow: accept NL commands, let the user pick a tick interval, then continue simulation or restart from a snapshot, but backend support is not implemented.
+- “Restart/continue from here” workflow is missing. After a manual intervention, there is no built-in way to schedule a delayed step or to branch/replay from a given snapshot; users must trigger `simulate`/`step` manually.
+- Time visibility: world/tick ratio is not shown to the user. Default is 1 tick = 300 seconds unless `time_config.tick_seconds` or API `tick_seconds` overrides it; this is not surfaced in the UI, causing confusion about when interventions take effect.

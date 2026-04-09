@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentsociety"
+version = "0.0.0"
+description = "AgentSociety core with a Further-style prediction engine"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "pydantic>=2.8",
+  "litellm>=1.44",
+  "mcp>=1.0.0",
+  "openai>=1.40",
+  "sqlalchemy>=2.0",
+  "sqlmodel>=0.0.22",
+  "aiosqlite>=0.20",
+  "python-multipart>=0.0.9",
+  "pypdf>=5.0.0",
+  "json-repair>=0.26.0",
+  "black>=24.0",
+  "neo4j>=5.26.0",
+  "graphiti-core>=0.28.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "packages/agentsociety2"}
+
+[tool.setuptools.packages.find]
+where = ["packages/agentsociety2"]
+include = ["agentsociety2*"]

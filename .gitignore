@@ -1,0 +1,33 @@
+# Python
+.venv/
+.venv311/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+further/node_modules/
+further/dist/
+
+# 环境变量（含 API Key，绝对不能提交）
+.env
+.env.local
+
+# 运行期数据（SQLite + Neo4j）
+data/
+*.db
+
+# 系统文件
+*:Zone.Identifier
+.DS_Store
+Thumbs.db
+
+# 临时文件
+tmp/
+*.log
