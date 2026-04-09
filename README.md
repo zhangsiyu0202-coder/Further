@@ -7,7 +7,7 @@
 
 ---
 
-warning：项目依然有很多bug  但是总体功能已经实现的差不多了  希望后续能有更多开发者一起来维护项目    本项目受到mirofish的启发而来的（https://github.com/666ghj/MiroFish ）   基于agentsociety（https://github.com/tsinghua-fib-lab/AgentSociety ） 而构建的基于虚拟数字世界的推演预测项目。  （本人邮箱：jiachangkun02@gmail.com）如有侵权 请告知。
+# warning：项目依然有很多bug  但是总体功能已经实现的差不多了  希望后续能有更多开发者一起来维护项目    本项目受到mirofish的启发而来的（https://github.com/666ghj/MiroFish ）   基于agentsociety（https://github.com/tsinghua-fib-lab/AgentSociety ） 而构建的基于虚拟数字世界的推演预测项目。  （本人邮箱：jiachangkun02@gmail.com）如有侵权 请告知。
 
 ## 目录
 
