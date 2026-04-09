@@ -243,6 +243,9 @@ npm run dev
 在「**仿真目标**」框填写希望观察的问题，例如：
 > "预测该政策出台后，各利益相关方的反应和舆论走向"
 
+<img width="2282" height="1277" alt="image" src="https://github.com/user-attachments/assets/a538ee62-3f5d-42aa-9e44-cc232b512e64" />
+
+
 ### Step 2：构建世界
 
 点击「**同步到后端 / 构建世界**」。系统将依次：
